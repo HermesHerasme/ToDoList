@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+
+h1{
+    margin: 10px;
+}
+
+.container{
+    background-color: rgb(234, 156, 10);
+    height: 70vh;
+    width: 40vh;
+    border-radius: 2vh;
+    box-shadow: 2px 10px 10px ;
+    
+
+
+}
+
+.addTask{
+    background-color: rgb(227, 189, 20);
+    height: 5vh;
+    width: 35vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 5pc;
+
+    
+}
+
+.text{
+    width: 100%;
+    margin-left: 1vh;
+    border: 0;
+    height: 4vh;
+    background-color:  rgb(227, 189, 20);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    
+}
+
+.text:focus{
+    outline: none; 
+    box-shadow: none; 
+    border-color: inherit;
+}
+
+
+
+.submit{
+    width: 20%;
+    
+    
+    background-color: rgb(228, 139, 6);
+    border: 0;
+    height: 5vh;
+    
+}
+
+.submit:hover {
+    background-color: rgb(154, 94, 4);
+
+}
+
+.taskContainer{
+    
+    padding: 10px;
+    height: 55vh;
+}
+
+.taskManager{
+    
+    width: 38vh;
+    
+    display: flex;
+    justify-content:space-between;
+    font-size: 24px;
+    
+}
+
+.btn{
+    background-color: red;
+    width: 3vh;
+    height: 3vh;
+   margin: vh;
+    border: none;
+    
+    
+}
+
+.radiobtn{
+    width:3vh;
+    
+    border-color: green;
+    color: green;
+
+}
