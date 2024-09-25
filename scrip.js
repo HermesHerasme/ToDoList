@@ -45,6 +45,7 @@ submit.addEventListener('click', () => {
         taskContainer.addEventListener('click', (event) => {
             if (event.target.classList.contains('btn')) {
                 const taskManager = event.target.closest('.taskManager');
+                //mensaje para confirmar la eliminacion
                 if (confirm('Are you sure to delete?')) {
                     taskContainer.removeChild(taskManager);
                 }
