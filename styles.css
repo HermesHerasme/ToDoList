@@ -85,7 +85,7 @@ h1{
 .taskManager{
     
     width: 38vh;
-    
+    background-color: rgb(232, 131, 0);
     display: flex;
     justify-content:space-between;
     font-size: 3vh;
@@ -93,9 +93,10 @@ h1{
 }
 
 .btn{
+   
     background-color: red;
-    width: 3vh;
-    height: 3vh;
+    width: 3.3vh;
+    height: 3.3vh;
     border: none;
     border-radius: 1.5vh;
     

@@ -6,16 +6,19 @@ const taskManager =`
 <div class="taskManager">
 
     <input class="radiobtn" type="radio">  
-    <div class="task1"></div>           
+    <div class="task1">9</div>           
     <button class="btn">X</button>
                 
 </div>
+<br>
 `;
 
 
 submit.addEventListener('click', () =>{
 
-    if(addTask.value.trim() === " "){
+    let valorinput = addTask.value.trim()
+
+    if( valorinput === ""){
         alert('pleace add a task')
 
     }else{
@@ -23,7 +26,7 @@ submit.addEventListener('click', () =>{
     const newFinaltask = document.querySelector('.taskManager:last-child .task1')
 
     
-       fialtask.textContent = addTask.textContent
+       
     
 
 
